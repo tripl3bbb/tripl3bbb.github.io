@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
+<!-- index30:49-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,46 +11,45 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>Bakery</title><link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i,500,500i,600,600i,700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/font-awesome/css/font-awesome.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap4/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/owl-carousel/assets/owl.carousel.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/slick/slick/slick.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/lightGallery-master/dist/css/lightgallery.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/jquery-ui/jquery-ui.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/select2/dist/css/select2.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/chikery-icon/style.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <title>Chikery | HTML Template</title><link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i,500,500i,600,600i,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/lightGallery-master/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="plugins/chikery-icon/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header header--1" data-sticky="true">
       <div class="header__left"><a class="menu-toggle ps-modal-link" href="#menu-fullscreen"><span></span></a>
         <p><i class="fa fa-clock-o"></i> 08:00 am - 08:30 pm</p>
       </div>
-      <div class="header__center"><a class="ps-logo"><img src="{{ url_for('static', filename='img/logo.png') }}" alt=""></a></div>
+      <div class="header__center"><a class="ps-logo" href="index-2.html"><img src="img/logo.png" alt=""></a></div>
       <div class="header__right">
         <div class="header__actions"><a class="ps-search-btn" href="#"><i class="fa fa-search"></i></a><a href="#"><i class="fa fa-heart-o"></i></a>
           <div class="ps-cart--mini"><a class="ps-cart__toggle" href="#"><i class="fa fa-shopping-basket"></i><span><i>2</i></span></a>
             <div class="ps-cart__content">
               <div class="ps-cart__items">
                 <div class="ps-product--mini-cart">
-                  <div class="ps-product__thumbnail"><a href="#"><img src="{{ url_for('static', filename='img/product/12.png') }}" alt=""></a></div>
-                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="{{ url_for('product') }}">Jean Woman Summer</a>
+                  <div class="ps-product__thumbnail"><a href="#"><img src="img/product/12.png" alt=""></a></div>
+                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
                     <p><strong>Quantity: 1</strong></p><small>$12.00</small>
                   </div>
                 </div>
                 <div class="ps-product--mini-cart">
-                  <div class="ps-product__thumbnail"><a href="#"><img src="{{ url_for('static', filename='img/product/13.png') }}" alt="Product 13"></a></div>
-                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="{{ url_for('product') }}">Jean Woman Summer</a>
+                  <div class="ps-product__thumbnail"><a href="#"><img src="img/product/13.png" alt=""></a></div>
+                  <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
                     <p><strong>Quantity: 1</strong></p><small>$12.00</small>
                   </div>
                 </div>
               </div>
               <div class="ps-cart__footer">
                 <h3>Sub Total:<strong>$48.00</strong></h3>
-                <figure><a class="ps-btn" href="{{ url_for('cart') }}">View Cart</a><a class="ps-btn ps-btn--dark" href="{{ url_for('checkout') }}">Checkout</a></figure>
+                <figure><a class="ps-btn" href="shopping-cart.html">View Cart</a><a class="ps-btn ps-btn--dark" href="checkout.html">Checkout</a></figure>
               </div>
             </div>
           </div>
@@ -61,15 +61,15 @@
         <div class="header__top"><a class="ps-logo" href="#"><img src="img/logo.png" alt=""></a></div>
         <div class="header__content">
           <ul class="menu--fullscreen">
-
+            <li class="current-menu-item "><a href="index-2.html">Home</a>
             </li>
-            <li><a href="{{ url_for('about') }}">About</a>
+            <li><a href="about-us.html">About</a>
             </li>
-            <li><a href="{{ url_for('product') }}">Products</a>
+            <li><a href="about-us.html">Pages</a>
             </li>
-            <li><a href="{{ url_for('blog') }}">Blog</a>
+            <li><a href="blog-grid.html">News</a>
             </li>
-            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            <li><a href="contact-us.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -81,6 +81,7 @@
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
           </ul>
+          <p><a href="https://www.templateshub.net" target="_blank">Templates Hub</a></p>
         </div>
       </div>
     </div>
@@ -102,7 +103,7 @@
           <div class="ps-cart__content">
             <div class="ps-cart__items">
               <div class="ps-product--mini-cart">
-                <div class="ps-product__thumbnail"><a href="#"><img src="{{ url_for('static', filename='img/product/12.png') }}" alt=""></a></div>
+                <div class="ps-product__thumbnail"><a href="#"><img src="img/product/12.png" alt=""></a></div>
                 <div class="ps-product__content"><span class="ps-btn--close"></span><a class="ps-product__title" href="product-default.html">Jean Woman Summer</a>
                   <p><strong>Quantity: 1</strong></p><small>$12.00</small>
                 </div>
@@ -725,7 +726,7 @@
           <div class="ps-footer__center">
             <div class="ps-site-info"><a class="ps-logo" href="index-2.html"><img src="img/logo.png" alt=""></a>
               <p>004 Riley Street, Surry Hills 2050 Sydney, Australia</p>
-              <p>Email:<a href="#"> <span class="__cf_email__" data-cfemail="4a23242c250a24253f3e222f272f3964292527">[email&#160;protected]</span></a></p>
+              <p>Email:<a href="#"> <span class="__cf_email__" data-cfemail="1d74737b725d73726869757870786e337e7270">[email&#160;protected]</span></a></p>
               <p>Phone:<span class="ps-hightlight"> +455 45 454555</span></p>
             </div>
           </div>
@@ -791,26 +792,26 @@
       </div>
     </div>
     <!-- Plugins-->
-    <script src="{{ url_for('static', filename='plugins/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/owl-carousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/bootstrap4/js/bootstrap.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/imagesloaded.pkgd.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/masonry.pkgd.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/jquery.matchHeight-min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/slick/slick/slick.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/jquery-bar-rating/dist/jquery.barrating.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/slick-animation.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/lightGallery-master/dist/js/lightgallery-all.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/jquery-ui/jquery-ui.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/sticky-sidebar/dist/sticky-sidebar.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/jquery.slimscroll.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/select2/dist/js/select2.full.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='plugins/gmap3.min.js') }}"></script>
+    <script src="plugins/jquery-1.12.4.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="plugins/imagesloaded.pkgd.js"></script>
+    <script src="plugins/masonry.pkgd.min.js"></script>
+    <script src="plugins/isotope.pkgd.min.js"></script>
+    <script src="plugins/jquery.matchHeight-min.js"></script>
+    <script src="plugins/slick/slick/slick.min.js"></script>
+    <script src="plugins/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+    <script src="plugins/slick-animation.min.js"></script>
+    <script src="plugins/lightGallery-master/dist/js/lightgallery-all.min.js"></script>
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="plugins/sticky-sidebar/dist/sticky-sidebar.min.js"></script>
+    <script src="plugins/jquery.slimscroll.min.js"></script>
+    <script src="plugins/select2/dist/js/select2.full.min.js"></script>
+    <script src="plugins/gmap3.min.js"></script>
     <!-- Custom scripts-->
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
   </body>
 
-<!--  29:51-->
+<!-- index30:49-->
 </html>
